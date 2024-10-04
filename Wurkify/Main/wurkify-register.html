@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wurkify - Register</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/wurkify-register.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="../index.html" class="navbar-logo">Wurkify</a>
+                <ul class="navbar-menu">
+                    <li><a href="../index.html#home">Home</a></li>
+                    <li><a href="../index.html#Why_us">Why us</a></li>
+                    <li><a href="../index.html#process">Process</a></li>
+                    <li><a href="../index.html#testimonial">Testimonial</a></li>
+                    <li><a href="../index.html#features">Features</a></li>
+                    <li><a href="../index.html#Faq">Faq</a></li>
+                    <li><a href="../index.html#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Welcome to Wurkify</h1>
+        <div class="content">
+            <div class="register-form">
+                <div class="toggle-buttons">
+                    <button id="signupBtn" class="active">Sign Up</button>
+                    <button id="loginBtn">Login</button>
+                </div>
+                <form id="signupForm" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
+                    <button type="submit" class="register-button">Sign Up</button>
+                </form>
+                <form id="loginForm" action="#" method="POST" style="display: none;">
+                    <div class="form-group">
+                        <label for="login-email">Email Address</label>
+                        <input type="email" id="login-email" name="login-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" name="login-password" required>
+                    </div>
+                    <button type="submit" class="register-button">Login</button>
+                </form>
+            </div>
+            <div class="register-info">
+                <h2>Join Wurkify Today</h2>
+                <img src="../assets/images/login_img/Computer login-pana.png" alt="Computer login illustration" class="login-image">
+                <div class="benefits">
+                    <ul>
+                        <li>Access to skilled professionals</li>
+                        <li>Streamlined hiring process</li>
+                        <li>Flexible payment options</li>
+                        <li>24/7 customer support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/js/wurkify-register.js"></script>
+</body>
+</html>
+
